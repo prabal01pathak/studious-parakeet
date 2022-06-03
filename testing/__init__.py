@@ -1,6 +1,8 @@
 """
 Description: init file for the package
 """
+
+from .sum import sum, call_seconds
 __version__ = '0.1.0'
 __author__ = 'Prabal Pathak'
 __email__ = 'prabal01pathak'
@@ -13,6 +15,9 @@ def main():
     """
     Main function
     """
+    print('Hello World!')
+    sum(1, 2)
+    call_seconds()
     return 0
 
 if __name__ == '__main__':
