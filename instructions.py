@@ -42,5 +42,9 @@ command: poetry lock
 
 6. Build installable package
 command: poetry build
+
+
+--------------------------------- ------------------------------------- UNIT TESTING ---------------------------------------------------
+command: python3 -m unittest discover 
 """
 
