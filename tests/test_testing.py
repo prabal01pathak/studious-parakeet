@@ -1,5 +1,5 @@
 from testing import __version__
-from testing.sum import sum, call_seconds
+from testing.sum import sum_two, call_seconds
 
 
 def test_version():

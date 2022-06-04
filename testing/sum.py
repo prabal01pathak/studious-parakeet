@@ -7,7 +7,7 @@ author: prabal
 '''
 from .second import seconds
 
-def sum(a, b):
+def sum_two(a, b):
     print("sum of two numbers")
     return a + b
 
